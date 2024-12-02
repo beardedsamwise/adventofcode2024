@@ -9,9 +9,6 @@ data = get_data(day=1, year=2024).splitlines()
 first_list = []
 second_list = []
 
-for i in range(len(data)):
-    row = data[i].split()
-
 for i, line in enumerate(data):
     line = line.split()
     first_list.append(int(line[0]))
