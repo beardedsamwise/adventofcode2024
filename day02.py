@@ -14,8 +14,6 @@ for line in data:
 
 safe_reports = 0
 
-print(list_of_data[896])
-
 for line in list_of_data:
 
     sorted_line = line.copy()
